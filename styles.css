@@ -94,3 +94,17 @@ h2{
     color: rgb(190, 200, 211);
     display: none;
 }
+@media (max-width: 450px) {
+    .search button{
+        border: 0;
+        outline: 0;
+        background: #ebfffc;
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+    }
+    .search button img{
+        width: 10px;
+    }
+}
